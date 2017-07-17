@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Winnie's Portfolio</title>
+</head>
+<body>
+<table width="100%" border="0">
+  <tr>
+    <td colspan="2" bgcolor="#ffffff">
+      <h1 style="text-align:center;font-family:papyrus;">Winnie's Portfolio</h1>
+     <h1 align="center"> <img   	  src="https://static.tumblr.com/11614a81310e0d93007cbefdb29155f6/xzymsti/F04nhbknp/tumblr_static_tumblr_static_860gzgn23f8cwwog4w4ocwsso_640.jpg" alt="Tumblr beach" style="width:304px;height:228px;">
+    </td>
+  </tr>
+  <tr valign="top">
+    <td bgcolor="#E4CBE4" width="50">
+      <b>Biography:</b><br />
+      Hi, my name is Winnie. I love art, science, and my family.<br />
+       <b>Likes and dislikes:</b><br />
+      I like mostly everything accept bad manners, bugs, and hummus.<br />
+        <b>Fun fact:</b><br />
+        My favorite, and only sport I can watch on TV is Bull Riding.
+         </td>
+    <td bgcolor="#FEF5FD" width="100" height="200">
+    <b>Fun website I like:</b><br />
+        <p><a href="https://www.buzzfeed.com/?utm_term=.gr9qqGovd#.iwYBBZROX/">Buzzfeed</a></p>
+        <b>Side scrollar game I made:</b><br />
+        <img src="https://preview.ibb.co/n4Dbxk/game_scratch.png"><b><br />In this game I designed the paddle to follow th mouse,and the balls to be in a loop to constantly bounce. The purpose of the game is to get as much points as you can in the smallest amout of time.</b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#ffffff">
+    </td>
+  </tr>
+</table>
+</body>
+</html>
