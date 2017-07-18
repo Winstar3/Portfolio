@@ -1,60 +1,108 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head> 
-<style>
-.city {
-   float: left;
-   margin: 10px;
-   padding: 10px;
-   max-width: 300px;
-   height: 300px;
-   border: 1px solid black;
-}   
-</style>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #ffffff;
+      padding: 25px;
+    }
+    .jumbotron {
+      background-image: url("http://data.whicdn.com/images/228574094/large.gif");
+      background-color: #cccccc;
+      color: white;
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+}
+  </style>
 </head>
-<body>  
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Winnie's Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" >Home</a></li>
+        <li><a href="#" >About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<h1 style="text-align:center;font-family:papyrus;"><i>Winnie's Portfolio</i></h1>
-<h2>place for links</h2>
-
-<div class="city" style="background-color: #e6f5ff; text-align:center;">
-  <h2> <i>Biography:</i> </h2>
-  <p> Hi, my name is Winnie. I love art, science, and my family.</p>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1><i><font size="50" color="pink">My Portfolio</font></p></i></h1>
+  </div>
 </div>
 
-<div class="city" style="background-color:  #e6f2ff">
-  <h2><i>Likes and dislikes:</i></h2>
-  <p> I like mostly everything accept bad manners, bugs, and hummus.</p> 
- </div>
+<div class="container-fluid bg-3 text-center">
+  <h3><font size="2" color="pink">Things about me:</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>I love the ocean.</p>
+      <img src="https://68.media.tumblr.com/658e4b90ba2a1d9135391c396b9995fe/tumblr_oo6mku86mi1w57celo1_500.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>I do not like hummus or rude people.</p>
+      <img src="https://media.giphy.com/media/EcCkpYM8e8xEI/200.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>My favorite sport to watch is bull riding.</p>
+      <img src="https://media.giphy.com/media/26uf7fAGb4jFl1648/giphy.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>I love art.</p>
+      <img src="https://media.giphy.com/media/qMq9qQk08nhAY/giphy.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
 
-<div class="city" style="background-color:  #e6f7ff">
-  <h2><i>Fun fact:</i></h2>
-  <p>  My favorite, and only sport I can watch on TV is Bull Riding.</p>
- </div>
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <p>I love my family.</p>
+      <img src="http://mediaresources.idiva.com/media/content/2016/Feb/15_signs_your_mom_is_your_best_friend_5_.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>I love science.</p>
+      <img src="http://68.media.tumblr.com/445707b21840f2e6693b51510d6ec39e/tumblr_nue4c8L3Ua1qzfsnio2_r1_400.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>I love romance.</p>
+      <img src="https://media.giphy.com/media/9vYjpFsuSre24/giphy.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>I am an emotional person but i'm still strong.</p>
+      <img src="http://images2.fanpop.com/image/photos/12800000/Santana-and-Brittany-brittany-and-santana-12859593-374-211.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
 
-<div class="city" style="background-color: #e6f2ff">
-  <h2><i>Side scrollar game I made:</i></h2>
-  <p>
-        <img src="https://preview.ibb.co/n4Dbxk/game_scratch.png" width="145" height="100" alt="Computer Hope"><b><br />In this game I designed the paddle to follow th mouse, and the balls to be in a loop to constantly bounce. The purpose of the game is to get as much points as you can in the smallest amout of time.</b></p>
- </div>
- 
- <div class="city" style="background-color: #e6f2ff">
-  <h2><i>Fun fact:</i></h2>
-  <p>  My favorite, and only sport I can watch on TV is Bull Riding.</p>
- </div>
- 
-  <div class="city" style="background-color:#e6ecff">
-  <h2><i>Fun fact:</i></h2>
-  <p>  My favorite, and only sport I can watch on TV is Bull Riding.</p>
- </div>
- 
+<footer class="container-fluid text-center">
+  <p>Thank you</p>
+</footer>
+
 </body>
 </html>
